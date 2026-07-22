@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "status": "demo",
+    "region": "FR",
+    "generated_at": "2026-07-21",
+    "warning": "Replace demo values with authoritative, dated factors."
+  },
+  "profiles": {
+    "petrol": {
+      "unit": "L",
+      "price_eur": 1.964,
+      "carbon_kgco2e": 2.75,
+      "price_date": "2026-07-13"
+    },
+    "diesel": {
+      "unit": "L",
+      "price_eur": 1.948,
+      "carbon_kgco2e": 3.1,
+      "price_date": "2026-07-13"
+    },
+    "electricity_home_fr": {
+      "unit": "kWh",
+      "price_eur": 0.194,
+      "carbon_kgco2e": 0.0416,
+      "factor_year": 2022,
+      "factor_release_year": 2025
+    },
+    "electricity_public_standard_demo": {
+      "unit": "kWh",
+      "price_eur": 0.39,
+      "carbon_kgco2e": 0.0416
+    },
+    "electricity_public_fast_eu_demo": {
+      "unit": "kWh",
+      "price_eur": 0.54,
+      "carbon_kgco2e": 0.0416
+    },
+    "hydrogen_renewable_demo": {
+      "unit": "kg",
+      "price_eur": 14.0,
+      "carbon_kgco2e": 2.0
+    },
+    "hydrogen_low_carbon_demo": {
+      "unit": "kg",
+      "price_eur": 14.0,
+      "carbon_kgco2e": 5.0
+    },
+    "hydrogen_fossil_demo": {
+      "unit": "kg",
+      "price_eur": 14.0,
+      "carbon_kgco2e": 11.0
+    },
+    "e85_demo": {
+      "unit": "L",
+      "price_eur": 0.9,
+      "carbon_kgco2e": 1.1
+    },
+    "lpg_demo": {
+      "unit": "L",
+      "price_eur": 1.0,
+      "carbon_kgco2e": 1.85
+    }
+  }
+}

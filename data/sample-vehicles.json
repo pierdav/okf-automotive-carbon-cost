@@ -1,0 +1,123 @@
+[
+  {
+    "id": "city-petrol",
+    "segment": "city",
+    "powertrain": "petrol",
+    "consumption": {
+      "value": 5.5,
+      "unit": "L/100km",
+      "energy": "petrol"
+    }
+  },
+  {
+    "id": "compact-diesel",
+    "segment": "compact",
+    "powertrain": "diesel",
+    "consumption": {
+      "value": 4.8,
+      "unit": "L/100km",
+      "energy": "diesel"
+    }
+  },
+  {
+    "id": "compact-hev",
+    "segment": "compact",
+    "powertrain": "hev",
+    "consumption": {
+      "value": 4.5,
+      "unit": "L/100km",
+      "energy": "petrol"
+    }
+  },
+  {
+    "id": "compact-phev",
+    "segment": "compact",
+    "powertrain": "phev",
+    "consumption": {
+      "electric": {
+        "value": 18.0,
+        "unit": "kWh/100km",
+        "energy": "electricity"
+      },
+      "thermal": {
+        "value": 6.0,
+        "unit": "L/100km",
+        "energy": "petrol"
+      }
+    },
+    "defaultElectricShare": 0.5,
+    "chargingEfficiency": 0.9
+  },
+  {
+    "id": "compact-bev",
+    "segment": "compact",
+    "powertrain": "bev",
+    "consumption": {
+      "value": 16.0,
+      "unit": "kWh/100km",
+      "energy": "electricity"
+    },
+    "chargingEfficiency": 0.9
+  },
+  {
+    "id": "suv-petrol",
+    "segment": "suv",
+    "powertrain": "petrol",
+    "consumption": {
+      "value": 7.5,
+      "unit": "L/100km",
+      "energy": "petrol"
+    }
+  },
+  {
+    "id": "suv-diesel",
+    "segment": "suv",
+    "powertrain": "diesel",
+    "consumption": {
+      "value": 6.2,
+      "unit": "L/100km",
+      "energy": "diesel"
+    }
+  },
+  {
+    "id": "suv-bev",
+    "segment": "suv",
+    "powertrain": "bev",
+    "consumption": {
+      "value": 21.0,
+      "unit": "kWh/100km",
+      "energy": "electricity"
+    },
+    "chargingEfficiency": 0.9
+  },
+  {
+    "id": "fcev-sedan",
+    "segment": "sedan",
+    "powertrain": "fcev",
+    "consumption": {
+      "value": 1.0,
+      "unit": "kg/100km",
+      "energy": "hydrogen"
+    }
+  },
+  {
+    "id": "city-e85",
+    "segment": "city",
+    "powertrain": "e85",
+    "consumption": {
+      "value": 7.0,
+      "unit": "L/100km",
+      "energy": "e85"
+    }
+  },
+  {
+    "id": "city-lpg",
+    "segment": "city",
+    "powertrain": "lpg",
+    "consumption": {
+      "value": 7.2,
+      "unit": "L/100km",
+      "energy": "lpg"
+    }
+  }
+]
